@@ -29,7 +29,7 @@ public class HMACSha1SignatureServiceTest
     String apiSecret = "api secret";
     String tokenSecret = "token secret";
     String baseString = "base string";
-    String signature = "cyxvUDZY/5cQBcBiKulaNgnhN/w=";
+    String signature = "uGymw2KHOTWI699YEaoi5xyLT50=";
     assertEquals(signature, service.getSignature(baseString, apiSecret, tokenSecret));
   }
 
